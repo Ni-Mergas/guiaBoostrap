@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Página Web con Bootstrap</title>
+    <link rel="stylesheet" href="styles.css"/>
+   
+  </head>
+  <body class="bg-fondo-color">
+    <div class="container-fluid bg-dark">
+      <nav class="navbar navbar-expand-md shadow p-3 mb-5 bg-dark rounded">
+        <div class="container-fluid ">
+          <a class="navbar-brand text-white" href="#">Barra de navegación</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Elementos del menu despues del boton -->
+          <div class="collapse navbar-collapse " id="menu">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item "><a class="nav-link text-white" href="#">Inicio</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  >Medio</a
+                >
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#"></a>Inicio
+                  </li>
+                  <li><a class="dropdown-item" href="#"></a>Medio</li>
+                  <li><a class="dropdown-item" href="#"></a>Final</li>
+                </ul>
+              </li>
+              <li>
+                <a class="nav-link text-white" href="#">Final</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container bg-grid-color" style="border: 1px solid black">
+      <div class="row" style="border: 1px solid black">
+        <h1 class="col-12 text-center">Grilla implementada con Bootstrap</h1>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-2.5 col-lg-3" style="border: 1px solid black">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, fugit
+          tempore laudantium quaerat voluptas sapiente officiis nulla corrupti!
+          Nobis veritatis tempora placeat cumque ipsum animi repellendus omnis
+          corporis vero necessitatibus? Totam voluptates laborum enim reiciendis
+          deleniti nam adipisci itaque, repellendus, quo, quae tenetur
+          laudantium laboriosam! Excepturi, consectetur assumenda corporis,
+          minima provident iusto exercitationem, amet omnis officiis quisquam
+          aliquid illo odio.
+        </div>
+        <div class="col-md-2.5 col-lg-3" style="border: 1px solid black">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
+          consequatur itaque quis corrupti, optio perspiciatis deleniti
+          voluptates omnis inventore magnam sapiente totam. Minima minus
+          quisquam eveniet repellendus perferendis, commodi placeat? Voluptate
+          exercitationem illum obcaecati earum ullam perspiciatis vero nemo
+          doloribus, aliquam magnam quaerat tempore! Culpa quos perspiciatis id
+          rerum doloremque est saepe atque magnam, libero iusto ab consectetur
+          aperiam. Reprehenderit. Rerum dolore veniam quasi tenetur reiciendis
+          commodi iusto doloribus temporibus obcaecati harum. Ut saepe inventore
+          sint doloremque praesentium eos at eum, provident non, repellat
+          quibusdam, nam delectus expedita quo beatae.
+        </div>
+        <div class="col-md-2.5 col-lg-3" style="border: 1px solid black">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, fugit
+          tempore laudantium quaerat voluptas sapiente officiis nulla corrupti!
+          Nobis veritatis tempora placeat cumque ipsum animi repellendus omnis
+          corporis vero necessitatibus? Totam voluptates laborum enim reiciendis
+          deleniti nam adipisci itaque, repellendus, quo, quae tenetur
+          laudantium laboriosam! Excepturi, consectetur assumenda corporis,
+          minima provident iusto exercitationem, amet omnis officiis quisquam
+          aliquid illo odio.
+        </div>
+        <div class="col-md-2.5 col-lg-3" style="border: 1px solid black">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
+          consequatur itaque quis corrupti, optio perspiciatis deleniti
+          voluptates omnis inventore magnam sapiente totam. Minima minus
+          quisquam eveniet repellendus perferendis, commodi placeat? Voluptate
+          exercitationem illum obcaecati earum ullam perspiciatis vero nemo
+          doloribus, aliquam magnam quaerat tempore! Culpa quos perspiciatis id
+          rerum doloremque est saepe atque magnam, libero iusto ab consectetur
+          aperiam. Reprehenderit. Rerum dolore veniam quasi tenetur reiciendis
+          commodi iusto doloribus temporibus obcaecati harum. Ut saepe inventore
+          sint doloremque praesentium eos at eum, provident non, repellat
+          quibusdam, nam delectus expedita quo beatae.
+        </div>
+      </div>
+    </div>
+          <!-- FORMULARIO DE CONTACTO -->
+    <div class="container Contacto mt-4 mb-4 border border-black">
+      <form class="row g-3 mt-3">
+        <div class=" border border-black text-center"><h2>Formulario con Bootstrap</h2></div>
+        
+        <div class="col-6 border ">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input
+            type="text"
+            class="form-control  mb-3"
+            id="nombre"
+            placeholder="Escribe tu nombre"
+          />
+        </div>
+        <div class="col-6 border ">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control mb-3"
+            id="email"
+            placeholder="Escribe tu email"
+          />
+        </div>
+        <div class="col-6 border ">
+          <label for="direccion" class="form-label">Dirección</label>
+          <input
+            type="direccion"
+            class="form-control mb-3"
+            id="direccion"
+            placeholder="Escribe tu dirección"
+          />
+        </div>
+        <div class="col-6 border ">
+          <label for="telefono" class="form-label">Teléfono</label>
+          <input
+            type="telefono"
+            class="form-control mb-3"
+            id="telefono"
+            placeholder="Escribe tu teléfono"
+          />
+        </div>  
+        <div class="col-6 border ">
+          <label for="ciudad" class="form-label">Ciudad</label>
+          <input
+            type="ciudad"
+            class="form-control mb-3"
+            id="telefono"
+            placeholder="Escriba la ciudad de residencia"
+          />
+        </div>  
+        <div class="col-3 border ">
+          <label for="codigoPostal" class="form-label">Código Postal</label>
+          <input
+            type="codigoPostal"
+            class="form-control mb-3"
+            id="codigoPostal"
+            placeholder="Escribe tu Código postal"
+          />
+        </div>
+        <div class="col-3 border ">
+          <label for="pais" class="form-label">País</label>
+          <input
+            type="pais"
+            class="form-control mb-3"
+            id="pais"
+            placeholder="País"
+          />
+        </div>
+        <div class="col-12">
+          <div class="form-check border ">
+            <input
+             type="checkbox" id="checkterms" 
+             class="form-check mb-3"
+             />
+             <label class="form-check-label" for="checkterms">Acepto las condiciones</label>
+          </div>
+        </div>
+        <div class="col-12 mb-4 border d-flex justify-content-center">
+          <button type="submit" class="btn btn-primary mb-3 mt-3">
+            Registrate
+          </button>
+        </div>    
+        </div>
+      </form>
+    </div>
+
+    <div class="container mb-5">
+     <div id="carouselMillos" class="carousel slide" data-bs-ride="carousel">
+     <div class="carousel-inner">
+       <div class="carousel-item active" data-bs-interval="10000">
+       <img src="Img/millos3.webp" class="d-block w-100">
+      </div>
+       <div class="carousel-item" data-bs-interval="10000">
+       <img src="Img/millos5.jpg" cla19th Ave New York, NY 95822, USAss="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+      <img src="Img/millos2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+      <img src="Img/millos1.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselMillos" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselMillos" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>                                   
+</div>
+
+
+
+<div class="container p-4 mb3 border d-flex justify-content-center">
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#soraModal">
+  Click para ingresar 
+</button>
+
+<!-- Modal -->
+
+  <div class="modal fade" id="soraModal" tabindex="-1" aria-labelledby="soraModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="soraModalLabel">Bienvenido al modal</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h2 class="fs-5">Link para dirigirse a Sora Coworking</h2>
+          <p> Para ingresar a <a href="https://www.soracoworking.com/" target="_blank" data-bs-toggle="tooltip" title="Tooltip">Sora click aquí</a></p>        
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Guardar Cambios</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container p-5 ">
+  <div class="row " >
+    <div class="col">
+      <table class="table table-hover table-bordered border-dark aling-midle caption-top text-center">
+        <caption><h3>Tabla implementada con Bootstrap</h3></caption>
+        <thead>
+          <tr class="table-dark">
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Correo Electrónico</th>
+          </tr>
+          <tbody>
+            <tr class="table-primary">
+              <td>Javier</td>
+              <td>Cuadros</td>
+              <td>ing.javiercuadros@gmail.com</td>
+            </tr>
+            <tr class="table-success">
+              <td>Samuel</td>
+              <td>Cuadros</td>
+              <td>ing.Samuel@gmail.com</td>
+            </tr>
+            <tr class="table-warning">
+              <td>Daniel</td>
+              <td>Cuadros</td>
+              <td>ing.Daniel@gmail.com</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr class="table-danger">
+              <td>Fin de la tabla</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tfoot>
+        </thead>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid ">
+  <div class="row bg-dark text-white p-5 pb-2">
+    <div class="col-xs-12 col-md-6 col-lg-3">
+      <p class="h3 mb-3">Bootstrap5</p>
+      <i class="fa-brands fa-bootstrap fa-2xl mb-4"></i>
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-3">
+      <p class="h5 mb-3">Nosotros</p>
+      <div class="mb-2">
+        <a class="text-secondary text-decoration-none" href="#">Misión</a>
+      </div>
+      <div class="mb-2">
+        <a class="text-secondary text-decoration-none" href="#">Visión</a>
+      </div>
+      <div class="mb-2">
+        <a class="text-secondary text-decoration-none" href="#">Valores Empresariales</a>
+      </div>
+      <div class="mb-2">
+        <a class="text-secondary text-decoration-none" href="#">Metodologías Ágiles</a>
+      </div>      
+      
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-3">
+      <p class="h5 mb-3">Links</p>
+      <div class="mb-2">
+        <a class="text-secondary text-decoration-none" href="#">Terminos & condiciones</a>
+      </div> 
+      <div class="mb-2">
+        <a class="text-secondary text-decoration-none" href="#">Políticas de Privacidad</a>
+      </div> 
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-3">
+      <p class="h5 mb-3">Contactanos</p>
+      <p class="text-secondary"><i class="fa-brands fa-instagram fa-lg"></i> Instagram</p>
+      <p class="text-secondary"><i class="fa-brands fa-square-facebook fa-lg"></i> Facebook</p>
+      <p class="text-secondary"><i class="fa-brands fa-square-twitter fa-lg"></i> Twitter</p>
+      <p class="text-secondary"><i class="fa-brands fa-tiktok fa-lg"></i></i> Tiktok</p>
+    </div>
+    <div class="xs-col-12 pt-4">
+      <p class="text-white text-center fs-5">Copyright - Todos los derechos reservados <i class="fa-solid fa-copyright fa-xs"></i> 2023</p>
+     </div>
+ </div>
+</div>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
