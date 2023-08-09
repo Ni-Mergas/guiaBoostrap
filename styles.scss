@@ -8,9 +8,28 @@ $custom-colors: (
 );
     
 // Merge the maps
+
 $theme-colors: map-merge($theme-colors, $custom-colors);
 $custom-colors: (
     "grid-color": #c4f8e3
+  
+);
+    
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+$custom-colors: (
+    "form-color": #e9e4fd
+  
+);
+    
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+$custom-colors: (
+    "table-color": #d8b0b0
   
 );
     
