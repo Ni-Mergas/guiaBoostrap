@@ -36,6 +36,33 @@ $custom-colors: (
 // Merge the maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
+// Importa las fuentes de Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+// Define un nuevo estilo de fuente usando la fuente importada
+.codepro {
+    font-family: 'Source Code Pro', monospace;
+}
+// Importa las fuentes de Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+// Define un nuevo estilo de fuente usando la fuente importada
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+.borel{
+    font-family: 'Borel', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.dancing{
+    font-family: 'Dancing Script', sans-serif;
+}
+
 
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";

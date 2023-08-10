@@ -1,4 +1,24 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Borel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.codepro {
+  font-family: "Source Code Pro", monospace;
+}
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+}
+
+.borel {
+  font-family: "Borel", sans-serif;
+}
+
+.dancing {
+  font-family: "Dancing Script", sans-serif;
+}
+
 /*!
  * Bootstrap  v5.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
